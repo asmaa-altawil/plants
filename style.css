@@ -1,0 +1,361 @@
+.navbar-toggler:hover {
+  color: green;
+}
+
+.carousel-item img {
+  filter: grayscale(60%);
+}
+
+.hero h1 {
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+  animation: fadeInDown 1s both;
+}
+
+.hero p {
+  animation: fadeInDown 1s both 0.2s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bi-play-fill {
+  color: white;
+  background-color: green;
+  padding: 5px;
+  font-size: xx-large;
+}
+
+.bi-play-fill:hover {
+  border-radius: 50px;
+  color: goldenrod;
+  opacity:0.5;
+}
+.hero2 img {
+  margin-top: 20px;
+}
+.hero2 :hover{
+opacity: 0.8;
+}
+.post-item{
+  box-shadow:0px 2px 20px rgba(0, 0, 0, 0.1) ;
+}
+.post-item .post-date {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: green;
+  color:white;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 8px 15px;
+  font-weight: 500;
+}
+
+.post-item .post-title {
+  color: green;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+.post-item .meta i {
+  font-size: 16px;
+  color: green;
+}
+.post-content{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.readmore{
+  text-decoration: none;
+  color: rgb(147, 156, 147);
+  font-size: larger;
+  margin-bottom: 10px;
+}
+.readmore:hover{
+  color: green;
+}
+.footer-links h4{
+  text-decoration: underline green;
+  
+}
+.footer-links a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+  opacity: 0.7;
+  font-size: large;
+}
+.footer-links a:hover{
+  color: rgb(53, 167, 53);
+}
+.footer-about a{
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.footer-top{
+  margin-left: 20px;
+}
+.end{
+  margin-top: 0;
+  background-color: darkslategray;
+  height:100px ;
+}
+.icon i{
+  color: rgb(100, 196, 100);
+  background-color: rgb(63, 99, 99);
+  padding: 10px;
+}
+.icon i:hover{
+  color: aliceblue;
+  background-color: rgb(100, 196, 100);
+}
+.about-b{
+  background-image: url(./img/trees.jpg) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  filter: grayscale(0.2);
+}
+.about-b h1 {
+font-weight: bolder;
+font-size: 4rem;
+}
+.about-b p{
+  font-size: larger;
+}
+.about-b a{
+  text-decoration: none;
+  color: rgb(27, 128, 27);
+  font-size: larger;
+  font-weight: bold;
+}
+.person {
+  position: relative;
+}
+
+.person figure {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.person img {
+  transition: 0.3s all ease;
+}
+.person .person-contents {
+  text-align: center;
+}
+
+.person .person-contents h3 {
+  color: rgb(15, 15, 78);
+  font-size: 24px;
+}
+
+.person .person-contents .position {
+  color: green;
+}
+.person:hover img {
+  transform: scale(1.06);
+}
+
+.person .social {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 4;
+}
+
+.person .social a {
+  display: block;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  background:rgb(235, 240, 235);
+  position: relative;
+  color:green;
+}
+
+.person .social a>span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.person .social a:hover {
+  background: green;
+  color: white;
+}
+.blog-posts-2 article {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.blog-posts-2 .post-img img {
+  transition: 0.5s;
+}
+
+.blog-posts-2 .post-content {
+  padding: 30px;
+}
+
+.blog-posts-2 .post-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(14, 14, 85);
+  font-weight: 500;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.blog-posts-2 .meta {
+  position: relative;
+  margin-top: -20px;
+  padding: 0 30px;
+}
+
+.blog-posts-2 .meta i {
+  font-size: 16px;
+  color: green;
+}
+
+.blog-posts-2 .meta span {
+  font-size: 15px;
+}
+
+.blog-posts-2 .meta .post-date {
+  background-color: green;
+  font-size: 13px;
+  padding: 5px 10px;
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.blog-posts-2 .meta .post-date span {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.blog-posts-2 .readmore {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  transition: 0.3s;
+  color:navy;
+}
+
+.blog-posts-2 .readmore i {
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.blog-posts-2 article:hover .post-title,
+.blog-posts-2 article:hover .readmore {
+  color: green;
+}
+
+.blog-posts-2 article:hover .post-img img {
+  transform: scale(1.2);
+}
+
+
+.blog-pagination ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.blog-pagination li {
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.blog-pagination li a {
+  color: rgb(177, 172, 172);
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-pagination li a.active,
+.blog-pagination li a:hover {
+  background: green;
+  color: white;
+}
+.info{
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.info h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.info p {
+  color: grey;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.info-item i {
+  font-size: 24px;
+  color:green ;
+  margin-right: 20px;
+}
+.end-email-form .form-group {
+  padding-bottom: 8px;
+}
+.end-email-form {
+  width: 100%;
+}
+.end-email-form button {
+  background:green;
+  color: white;
+  border: 0;
+  padding: 15px 50px;
+  border-radius: 5px;
+}
+.end-email-form input,
+.end-email-form input {
+  height: 48px;
+  padding: 10px 15px;
+}
+
+.end-email-form textarea {
+  padding: 10px 12px;
+  height: 280px;
+}
